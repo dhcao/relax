@@ -1,8 +1,5 @@
 package com.xiawan.utils.commomUtils;
 
-import org.springframework.web.util.WebUtils;
-
-import javax.servlet.http.HttpServletRequest;
 import java.io.*;
 import java.net.URLDecoder;
 import java.security.MessageDigest;
@@ -20,7 +17,7 @@ import static java.util.regex.Pattern.*;
 /**
  * 字串工具类
  * 
- * @author kevin 2010-1-6下午01:52:58
+ * @author dhcao 2018-3-28
  */
 public class StringUtil {
 
