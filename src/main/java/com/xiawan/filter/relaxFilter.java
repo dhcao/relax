@@ -31,12 +31,15 @@ public class relaxFilter implements Filter {
         HttpServletRequest httpRequest = (HttpServletRequest) servletRequest;
         HttpServletResponse httpResponse = (HttpServletResponse) servletResponse;
         String url = httpRequest.getServletPath();
-
+        
         //对rul参数进行安全过滤，特殊字符校验，xss过滤
         Map paramMap = httpRequest.getParameterMap();
         if (!SafeUtil.checkMap(paramMap)) {
             return;
         }
+        
+        //对url进行分类处理
+        // TODO: 2018/3/29  
     }
 
     @Override
