@@ -37,9 +37,9 @@ public class relaxFilter implements Filter {
         if (!SafeUtil.checkMap(paramMap)) {
             return;
         }
-        
-        //对url进行分类处理
-        // TODO: 2018/3/29  
+
+        chain.doFilter(httpRequest,httpResponse);
+
     }
 
     @Override

@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="relax-web:war">
+    <output-path>$PROJECT_DIR$/relax-web/target</output-path>
+    <root id="archive" name="relax-web.war">
+      <element id="artifact" artifact-name="relax-web:war exploded" />
+    </root>
+  </artifact>
+</component>
