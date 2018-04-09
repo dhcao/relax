@@ -1,15 +1,15 @@
 <!doctype html>
+<html xmlns:th="http://www.w3.org/1999/xhtml">
 <html>
 <head>
 <meta charset="gb2312">
-<title>帝国cms关键词和tags标签自动同步方法</title>
-<meta name="keywords" content="帝国cms" />
-<meta name="description" content="帝国cms关键词和tags标签自动同步方法" />
+<title>AAA</title>
+
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<link href="css/base.css" rel="stylesheet">
-<link href="css/index.css" rel="stylesheet">
+<link href="blog/css/base.css" rel="stylesheet">
+<link href="blog/css/index.css" rel="stylesheet">
 <!--[if lt IE 9]>
-<script src="js/modernizr.js"></script>
+<script src="blog/js/modernizr.js"></script>
 <![endif]-->
 </head>
 <body>
@@ -26,28 +26,7 @@ window.onload = function ()
 	}
 }
 </script>
-<header>
-  <div id="mnav">
-    <h2><span class="navicon"></span></h2>
-    <ul>
-      <li><a href="/">网站首页</a></li>
-      <li><a href="/about.html">关于我</a></li>
-      <li><a href="/download/">模板分享</a></li>
-      <li><a href="/jstt/">学无止境</a></li>
-      <li><a href="/news/">慢生活</a></li>
-      <li><a href="/e/tool/gbook/?bid=3">留言</a></li>
-    </ul>
-  </div>
-  <nav>
-    <ul>
-      <li><a href="/">网站首页</a></li>
-      <li><a href="/about.html">关于我</a></li>
-      <li><a href="/download/">模板分享</a></li>
-      <li><a href="/jstt/">学无止境</a></li>
-      <li><a href="/news/">慢生活</a></li>
-      <li><a href="/e/tool/gbook/?bid=3">留言</a></li>
-    </ul>
-  </nav>
+<header th:include="blog/index::header">
 </header>
 <article>
   <div class="leftbox">
