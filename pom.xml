@@ -110,11 +110,8 @@
   </dependencies>
   <build>
     <plugins>
-      <!--将SpringBoot的Maven插件全部引入 包含tomcat-->
-      <plugin>
-        <groupId>org.springframework.boot</groupId>
-        <artifactId>spring-boot-maven-plugin</artifactId>
-      </plugin>
+
+
     </plugins>
     <finalName>relax</finalName>
   </build>

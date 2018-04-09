@@ -1,0 +1,115 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="gb2312">
+<title>优秀个人博客</title>
+<meta name="keywords" content="优秀个人博客" />
+<meta name="description" content="优秀个人博客" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link href="blog/css/base.css" rel="stylesheet">
+<link href="blog/css/index.css" rel="stylesheet">
+<!--[if lt IE 9]>
+<script src="blog/js/modernizr.js"></script>
+<![endif]-->
+
+</head>
+<body>
+<script>
+window.onload = function ()
+{
+	var oH2 = document.getElementsByTagName("h2")[0];
+	var oUl = document.getElementsByTagName("ul")[0];
+	oH2.onclick = function ()
+	{
+		var style = oUl.style;
+		style.display = style.display == "block" ? "none" : "block";
+		oH2.className = style.display == "block" ? "open" : ""
+	}
+}
+</script>
+<header>
+  <div id="mnav">
+    <h2><span class="navicon"></span></h2>
+    <ul>
+      <li><a href="/">网站首页</a></li>
+      <li><a href="/about.html">关于我</a></li>
+      <li><a href="/download/">模板分享</a></li>
+      <li><a href="/jstt/">学无止境</a></li>
+      <li><a href="/news/">慢生活</a></li>
+      <li><a href="/e/tool/gbook/?bid=3">留言</a></li>
+    </ul>
+  </div>
+  <nav>
+    <ul>
+      <li><a href="/">网站首页</a></li>
+      <li><a href="/about.html">关于我</a></li>
+      <li><a href="/download/">模板分享</a></li>
+      <li><a href="/jstt/">学无止境</a></li>
+      <li><a href="/news/">慢生活</a></li>
+      <li><a href="/e/tool/gbook/?bid=3">留言</a></li>
+    </ul>
+  </nav>
+</header>
+<article>
+  <div class="container">
+
+<h2 class="ctitle"><b>站长推荐</b> <span>可能，你觉得自己没有足够得优秀，但我始终相信你仍然在努力坚持着! </span></h2>
+<ul class="blogsitetj">  
+
+
+</ul>
+
+  <style>
+.container {
+    background: #fff;
+    margin: 20px;
+    padding: 20px;
+    border-radius: 20px;
+}
+
+h2.ctitle {
+    line-height: 30px;
+    font-size: 16px;
+    border-bottom: #000 2px solid;
+}
+.ctitle span {
+    float: right;
+    font-weight: normal;
+}
+.blogsitetj li:nth-child(n) {
+    background: #FE5187;
+}
+ul.blogsitetj,ul.blogsite {
+    padding: 30px;    overflow: hidden;
+}
+.blogsitetj li ,.blogsite li{
+    float: left;
+    width: 200px;
+    text-align: center;
+    line-height: 30px;
+    background: #075498;
+    margin: 6px;
+    padding: 5px 0;
+    overflow: hidden;
+    height: 30px;
+    border: 1px solid #fff;
+}
+
+
+.blogsitetj li:nth-child(n) { background: #FE5187 }
+.blogsitetj li:nth-child(2n) { background: #339967 }
+.blogsitetj li:nth-child(3n) { background: #FF8151 }
+.blogsitetj li:nth-child(4n) { background: #3594cb }
+.blogsitetj li:nth-child(5n) { background: #66CC9A }
+.blogsitetj li:nth-child(6n) { background: #079798 }
+.blogsitetj li:hover { background: #075498; }
+.blogsite li a,.blogsitetj li a{ color:#fff}
+</style>
+  </div>
+  </aside>
+</article>
+<footer>
+  <p>Design by <a href="http://www.yangqq.com">杨青个人博客</a> <a href="/">蜀ICP备11002373号-1</a></p>
+</footer>
+</body>
+</html>
